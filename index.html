@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   body{
+   background-color: rgb(127, 136, 127);
+   }
+   .parent{
+
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    margin-top: 4%;
+    border-radius:10px; 
+    padding:  4% 5%;
+
+   }
+
+   .login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align:  center;
+    color: rgba(15, 24, 17, 0.829);
+   }
+
+   .input-field{
+    padding: 3.5% 2%;
+    width: 90%;
+    background-color:#b7b9b9;
+    
+   }
+
+
+   .btn{
+    background-color: rgb(16, 16, 41);
+    margin-left: 30%;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 4%;
+    width: 35%;
+   }
+
+   .forgot,.signup{
+      text-align: center;
+
+   }
+   .forgot,.signup{
+    color: green;
+    text-decoration:none;
+   }
+
+  @media( max-width: 600px)
+  {
+     .parent{
+      width: 90%;
+      margin: 0%;
+     }
+  }
+</style>
+</head>
+<body>
+  <div class ="parent">
+    <h1 class="login">Login</h1>
+    <p><input class="input-field" type="email" placeholder="E-Mail"/></p>
+    <p><input class="input-field" type="password" placeholder="PASSWORD"/></p>
+    <p><input type="checkbox"     />Show Password</p>
+    <button class="btn">SIGN IN</button>
+
+    <p class="forgot">
+      Forgot<a href="">USER NAME</a> / <a href="">Password</a></p>
+
+      <p class="signup">
+        Dont have an acount?<a href=""> SIGNUP</a></p>
+  
+   </div>
+</body>
+</html>
